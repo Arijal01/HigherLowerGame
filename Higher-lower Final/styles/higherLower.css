@@ -1,0 +1,41 @@
+html{
+    font-family:'Times New Roman', Times, serif;
+}
+body 
+{
+    background-image: url('../pic/bg.jpg'); 
+    text-align: center;
+    vertical-align: baseline;
+    background-color: rgba(0, 0, 0, 0.605);
+    color:azure;
+    padding: 115px;
+}
+
+div.box{
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 10px;
+    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 5px 5px 20px #000000;
+}
+
+div.forbttn{
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#w {
+    font-family:'Times New Roman', Times, serif;
+    font-size:larger;
+}
+
+#message{
+    font-size:x-large;
+    font-weight: 1000;
+}

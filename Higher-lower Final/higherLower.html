@@ -1,0 +1,34 @@
+<htm>
+    <head>
+        <title>Higher-Lower Game</title>
+        <link rel="stylesheet" href="styles/higherLower.css"/>
+    </head>
+    <body onload="n()">
+        <script src="scripts/higherLower.js"></script>
+
+        <div class="frame">
+            <img src="pic/hol.webp">
+        </div>
+
+        <p id="w">Guess a number between 1 and <span id="maxInt"></span> (Both numbers included)</p>
+        
+        <input type="text" id="guess"/>
+        <input type="button" onclick="guess()" value="Guess">
+
+    </body>
+<p> </p>
+
+
+<div class="box">
+
+    <p id="result"></p>
+    <p id="message"></p>
+    <p id="two"></p> 
+    <p id ="x"></p>
+    <span id="guessList"></span>
+    <p></p>
+    <span id="replay"><input type="button" id="replay" onclick="window.location.reload()" value="Play again?"></span>
+    <p></p>
+    
+</div>
+</htm>
