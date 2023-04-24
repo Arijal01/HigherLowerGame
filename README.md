@@ -1,5 +1,7 @@
 # HigherLowerGame
 First webdev project. Number guessing game made using JS, HTML and CSS. 
+- prompts the user
+- validates guesses
 
 # .HTML file
 - Consists of basic HTML block/inline elements to structure the webpage of the Higher-Lower game
